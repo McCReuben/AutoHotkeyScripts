@@ -27,4 +27,7 @@ else if (myVariable = "World")
 {
     MsgBox, %myVariable% is equal to "World"
 }
-
+else
+{
+    MsgBox, %myVariable% is not equal to "Hello" or "World"
+}
